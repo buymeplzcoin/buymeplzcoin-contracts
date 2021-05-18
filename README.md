@@ -2,7 +2,7 @@
 Could you please buy this coin?
 
 # Contract Address
-[0x5a21C0D8FDd9EE78709Be95038CCa60A96f83c61](https://bscscan.com/address/0x5a21c0d8fdd9ee78709be95038cca60a96f83c61)
+[0x3192b229a22423106e806e7fe9Cd076b4F788758](https://bscscan.com/address/0x3192b229a22423106e806e7fe9Cd076b4F788758)
 
 # License
 [MIT](LICENSE)

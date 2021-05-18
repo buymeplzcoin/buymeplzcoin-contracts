@@ -7,14 +7,15 @@ contract BuyMePlzCoin is BuyMePlzCoinInterface {
 
     string  constant public NAME = "Buy Me Plz Coin";
     string  constant public SYMBOL = "BMP";
-    uint8   constant public DECIMALS = 1;
-    uint256 constant public TOTAL_SUPPLY = ~uint256(0);
+    uint8   constant public DECIMALS = 18;
+    uint256 constant public TOTAL_SUPPLY = 1000000000000000000000000000000000;
 
     mapping(address => uint256) private balances;
     mapping(address => mapping(address => uint256)) private allowed;
 
     constructor() {
 		balances[msg.sender] = TOTAL_SUPPLY;
+        emit Transfer(address(0x0), msg.sender, TOTAL_SUPPLY);
 	}
 
     function name() external pure override returns (string memory) { return NAME; }
